@@ -1,0 +1,45 @@
+---
+# vars file for users
+
+[autobots]
+# optimus prime
+username: "optimus_prime"
+  fullName: "Optimus Prime"
+  role:
+    name: "admin"
+  timeZone: "EST"
+  locale: "en_US"
+  userAddress:
+    country: ""
+    state: "IN"
+    city: "Carmel"
+    line: ""
+    zipCode: ""
+  details: "Autobots leader"
+  tags: [
+    "autobot",
+    "leader",
+    "transformer"
+    "semi"
+  ]
+
+# Grimlock
+username: "grimlock"
+  fullName: "Grimlock"
+  role:
+    name: "user"
+  timeZone: "IST"
+  locale: "hi_IN"
+  userAddress:
+    country: ""
+    state: ""
+    city: ""
+    line: ""
+    zipCode: ""
+  details: "Grunt"
+  tags: [
+    "autobot",
+    "grunt",
+    "transformer"
+    "dinosaur"
+  ]
