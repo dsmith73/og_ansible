@@ -30,7 +30,7 @@
           fullName: "{{ item.fullname }}"
           role:
             name: "{{ item.role }}"
-          skypeUsername: "{{ item.skypeUsername | default() }}"
+          #skypeUsername: "{{ item.skypeUsername | default() }}"
           timeZone: "{{ item.timezone | default(omit) }}"
           locale: "{{ item.locale | default(omit) }}"
           userAddress:

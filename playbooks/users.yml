@@ -1,47 +1,43 @@
 ---
 # vars file for users
-# optimus prime
-- name: optimus_prime
-  username: "optimus_prime"
-  fullName: "Optimus Prime"
-  role:
-    name: "admin"
-  timeZone: "EST"
-  locale: "en_US"
-  userAddress:
-    country: "USA"
-    state: "IN"
-    city: "Carmel"
-    line: "Address goes here"
-    zipCode: "46032"
-  details: "Autobots leader"
-  tags: [
-    "autobot",
-    "leader",
-    "transformer",
-    "semi"
-  ]
-  state: present
-
-# Grimlock
-- name: grimlock
-  username: "grimlock"
-  fullName: "Grimlock"
-  role:
-    name: "user"
-  timeZone: "IST"
-  locale: "hi_IN"
-  userAddress:
-    country: "India"
-    state: "Andreha-Pradish"
-    city: "Hyderabad"
-    line: "Address goes here"
-    zipCode: "55555"
-  details: "Grunt"
-  tags: [
-    "autobot",
-    "grunt",
-    "transformer",
-    "dinosaur"
-  ]
-  state: present
+####    optimus prime    ####
+users:
+  - username: "optimus_prime@transformers.com"         # username should be email address
+    fullname: "Optimus Prime"
+    role: "admin"
+    timezone: "EST"
+    locale: "en_US"
+    userAddress:
+      country: "USA"
+      state: "IN"
+      city: "Carmel"
+      line: "Address goes here"
+      zipCode: "46032"
+    #details: "Leader"
+    tags: [
+      "autobot",
+      "leader",
+      "transformer",
+      "semi"
+    ]
+    state: present
+####    Grimlock    ####
+  - username: "grimlock@transformers.com"         # username should be email address
+    fullname: "Grimlock"
+    role: "user"
+    timezone: "IST"
+    locale: "en_IN"
+    userAddress:
+      country: "India"
+      state: "Andreha-Pradish"
+      city: "Hyderabad"
+      line: "Address goes here"
+      zipCode: "55555"
+    #details: "Grunt"
+    tags: [
+      "autobot",
+      "grunt",
+      "transformer",
+      "dinosaur"
+    ]
+    state: present
