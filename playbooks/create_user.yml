@@ -2,7 +2,7 @@
 - name: Create OpsGenie Users
   hosts: localhost
   gather_facts: false
-  vars_files: my_vars
+  vars_files: ./users.yml
   tasks:
     - name: Get List of all Users
       uri:

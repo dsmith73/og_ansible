@@ -1,6 +1,5 @@
 ---
 # vars file for users
-
 # optimus prime
 - name: optimus_prime
   username: "optimus_prime"
@@ -33,11 +32,11 @@
   timeZone: "IST"
   locale: "hi_IN"
   userAddress:
-    country: ""
-    state: ""
-    city: ""
-    line: ""
-    zipCode: ""
+    country: "India"
+    state: "Andreha-Pradish"
+    city: "Hyderabad"
+    line: "Address goes here"
+    zipCode: "55555"
   details: "Grunt"
   tags: [
     "autobot",
