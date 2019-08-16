@@ -25,7 +25,7 @@ users:
   - username: "grimlock@transformers.com"         # username should be email address
     fullname: "Grimlock"
     role: "user"
-    timezone: "IST"
+    #timezone: "IST"
     locale: "en_IN"
     userAddress:
       country: "India"
@@ -39,5 +39,45 @@ users:
       "grunt",
       "transformer",
       "dinosaur"
+    ]
+    state: present
+####    Starscream    ####
+  - username: "starscream@transformers.com"         # username should be email address
+    fullname: "Starscream"
+    role: "user"
+    timezone: "EST"
+    locale: "en_US"
+    userAddress:
+      country: "USA"
+      state: "IN"
+      city: "Indianapolis"
+      line: "Address goes here"
+      zipCode: "46256"
+    #details: "Grunt"
+    tags: [
+      "decepticon",
+      "general",
+      "transformer",
+      "f-15"
+    ]
+    state: present
+    ####    Megatron    ####
+  - username: "megatron@transformers.com"         # username should be email address
+    fullname: "Megatron"
+    role: "admin"
+    timezone: "PST"
+    locale: "en_US"
+    userAddress:
+      country: "USA"
+      state: "CA"
+      city: "San Jose"
+      line: "Address goes here"
+      zipCode: "12345"
+    #details: "Leader"
+    tags: [
+      "decepticon",
+      "leader",
+      "transformer",
+      "gun"
     ]
     state: present
