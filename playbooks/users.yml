@@ -2,28 +2,31 @@
 # vars file for users
 
 # optimus prime
-username: "optimus_prime"
+- name: optimus_prime
+  username: "optimus_prime"
   fullName: "Optimus Prime"
   role:
     name: "admin"
   timeZone: "EST"
   locale: "en_US"
   userAddress:
-    country: ""
+    country: "USA"
     state: "IN"
     city: "Carmel"
-    line: ""
-    zipCode: ""
+    line: "Address goes here"
+    zipCode: "46032"
   details: "Autobots leader"
   tags: [
     "autobot",
     "leader",
-    "transformer"
+    "transformer",
     "semi"
   ]
+  state: present
 
 # Grimlock
-username: "grimlock"
+- name: grimlock
+  username: "grimlock"
   fullName: "Grimlock"
   role:
     name: "user"
@@ -39,6 +42,7 @@ username: "grimlock"
   tags: [
     "autobot",
     "grunt",
-    "transformer"
+    "transformer",
     "dinosaur"
   ]
+  state: present
